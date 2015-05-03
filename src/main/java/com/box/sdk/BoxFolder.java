@@ -426,8 +426,8 @@ public class BoxFolder extends BoxItem implements Iterable<BoxItem.Info> {
     }
 
     /**
-     * Searches this folder and all descendant folders using a given query.
-     * @param  query the search query.
+     * Searches this folder and all descendant folders using a given search string.
+     * @param  query the string to search for.
      * @return an Iterable containing the search results.
      */
     public Iterable<BoxItem.Info> search(final String query) {
